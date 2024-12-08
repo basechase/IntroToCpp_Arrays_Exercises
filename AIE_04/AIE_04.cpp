@@ -37,4 +37,15 @@ void SortArray(int* arr, int count)
 	// TODO: 
 	// modify the values in the array so that when this method returns
 	// all values are sorted in ascending order
+
+	for (int i = 0; i < arr[i + 1]; i++)
+	{
+
+	
+
+	}
+
+
+
+
 }

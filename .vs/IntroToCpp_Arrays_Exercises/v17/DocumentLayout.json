@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\IntroToCpp_Arrays_Exercises\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8BC6B51-CA08-45AE-976E-05AFD495E270}|AIE_04\\AIE_04.vcxproj|C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_04\\AIE_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8BC6B51-CA08-45AE-976E-05AFD495E270}|AIE_04\\AIE_04.vcxproj|solutionrelative:AIE_04\\AIE_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{906238BE-65A7-468E-A287-D78F3B4E891A}|AIE_03\\AIE_03.vcxproj|C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_03\\AIE_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{906238BE-65A7-468E-A287-D78F3B4E891A}|AIE_03\\AIE_03.vcxproj|solutionrelative:AIE_03\\AIE_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AIE_04.cpp",
+              "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_04\\AIE_04.cpp",
+              "RelativeDocumentMoniker": "AIE_04\\AIE_04.cpp",
+              "ToolTip": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_04\\AIE_04.cpp",
+              "RelativeToolTip": "AIE_04\\AIE_04.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T10:01:57.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\GameOfLife\\Application.cpp",
               "RelativeDocumentMoniker": "GameOfLife\\Application.cpp",
@@ -34,25 +51,24 @@
               "RelativeToolTip": "GameOfLife\\Application.cpp",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T09:46:43.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T09:46:43.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AIE_03.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_03\\AIE_03.cpp",
               "RelativeDocumentMoniker": "AIE_03\\AIE_03.cpp",
               "ToolTip": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_03\\AIE_03.cpp",
               "RelativeToolTip": "AIE_03\\AIE_03.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T22:36:09.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AIE_02.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_02\\AIE_02.cpp",
               "RelativeDocumentMoniker": "AIE_02\\AIE_02.cpp",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "AIE_02\\AIE_02.cpp",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T22:01:41.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T22:01:41.277Z"
             }
           ]
         }
