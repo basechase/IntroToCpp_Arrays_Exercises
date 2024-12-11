@@ -386,3 +386,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
+.vs/IntroToCpp_Arrays_Exercises/FileContentIndex/cc98cc43-300f-4b19-ace1-c66f7f390c29.vsidx
+.vs/IntroToCpp_Arrays_Exercises/v17/Browse.VC.db
