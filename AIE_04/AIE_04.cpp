@@ -17,6 +17,9 @@ int main(int argc, char** argv)
 	if (IsArraySorted(numbers, NUM_ITEMS)) std::cout << "Pass: the array is sorted" << std::endl;
 	else std::cout << "Fail: the array is not sorted" << std::endl;
 
+	for (int i = 0; i < NUM_ITEMS; i++)
+		std::cout << numbers[i] << std::endl;
+
 	return 0;
 }
 
@@ -39,15 +42,23 @@ void SortArray(int* arr, int count)
 	// modify the values in the array so that when this method returns
 	// all values are sorted in ascending order
 
+
+	
 	for (int i = 0; i < count; i++)
 	{
 
-		if (arr[i] > arr[i + 1])
+		for (int n = i + 1; n < count; n++)
 		{
-			arr[i] = arr[i - 1];
+			if (arr[i] > arr[n])
+			{
+				int temp = arr[i];
+				arr[i] = arr[n];
+				arr[n] = temp;
+			}
 		}
 
 	}
+	
 
 
 
