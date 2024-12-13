@@ -35,8 +35,10 @@ void Application::Load()
 	// Initialise all values in m_tiles array to a random
 	// value between 0 and 5 exclusive;
 	// -----------------------------------------------------
-	
+
 	// write your code here
+
+
 
 	// -----------------------------------------------------
 }

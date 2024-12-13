@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\dev\\IntroToCpp_Arrays_Exercises\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA0DF64E-9D87-45BF-A840-355C397290BF}|AIE_06\\AIE_06.vcxproj|C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_06\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA0DF64E-9D87-45BF-A840-355C397290BF}|AIE_06\\AIE_06.vcxproj|solutionrelative:AIE_06\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0DF64E-9D87-45BF-A840-355C397290BF}|AIE_06\\AIE_06.vcxproj|C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_06\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA0DF64E-9D87-45BF-A840-355C397290BF}|AIE_06\\AIE_06.vcxproj|solutionrelative:AIE_06\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C48E9C-3067-4CCE-8E18-7C390017FCC5}|AIE_05\\AIE_05.vcxproj|C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_05\\AIE_05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5C48E9C-3067-4CCE-8E18-7C390017FCC5}|AIE_05\\AIE_05.vcxproj|solutionrelative:AIE_05\\AIE_05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8BC6B51-CA08-45AE-976E-05AFD495E270}|AIE_04\\AIE_04.vcxproj|C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_04\\AIE_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8BC6B51-CA08-45AE-976E-05AFD495E270}|AIE_04\\AIE_04.vcxproj|solutionrelative:AIE_04\\AIE_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -31,19 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_06\\Application.cpp",
+              "RelativeDocumentMoniker": "AIE_06\\Application.cpp",
+              "ToolTip": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_06\\Application.cpp",
+              "RelativeToolTip": "AIE_06\\Application.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T02:12:48.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_06\\main.cpp",
+              "RelativeDocumentMoniker": "AIE_06\\main.cpp",
+              "ToolTip": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_06\\main.cpp",
+              "RelativeToolTip": "AIE_06\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T02:12:45.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIE_05.cpp",
+              "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_05\\AIE_05.cpp",
+              "RelativeDocumentMoniker": "AIE_05\\AIE_05.cpp",
+              "ToolTip": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_05\\AIE_05.cpp",
+              "RelativeToolTip": "AIE_05\\AIE_05.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T08:37:02.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AIE_04.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_04\\AIE_04.cpp",
               "RelativeDocumentMoniker": "AIE_04\\AIE_04.cpp",
               "ToolTip": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_04\\AIE_04.cpp",
               "RelativeToolTip": "AIE_04\\AIE_04.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-07T10:01:57.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\GameOfLife\\Application.cpp",
               "RelativeDocumentMoniker": "GameOfLife\\Application.cpp",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AIE_03.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_03\\AIE_03.cpp",
               "RelativeDocumentMoniker": "AIE_03\\AIE_03.cpp",
@@ -63,12 +114,11 @@
               "RelativeToolTip": "AIE_03\\AIE_03.cpp",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T22:36:09.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T22:36:09.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AIE_02.cpp",
               "DocumentMoniker": "C:\\dev\\IntroToCpp_Arrays_Exercises\\AIE_02\\AIE_02.cpp",
               "RelativeDocumentMoniker": "AIE_02\\AIE_02.cpp",
