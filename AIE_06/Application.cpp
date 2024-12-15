@@ -1,11 +1,11 @@
 #include "Application.h"
 #include "raylib.h"
 #include <stdlib.h>
-
+#include <iostream>
 
 Application::Application()
 {
-
+	
 }
 
 Application::~Application()
@@ -38,7 +38,15 @@ void Application::Load()
 
 	// write your code here
 
-
+	for (int i = 0; i < ROWS * COLS; i++)
+	{
+	int num = rand() % 6;
+	m_tiles[i] = num;
+		
+	std::cout << m_tiles[i] << std::endl;
+	
+	}
+	
 
 	// -----------------------------------------------------
 }
@@ -53,19 +61,23 @@ void Application::Update(float deltaTime)
 	if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
 	{
 		Vector2 mousePos = GetMousePosition();
+		
+		int rowIndex = mousePos.y / m_tileHeight;
+		int colIndex = mousePos.x / m_tileWidth;
 
-		// Task 3:
-		// TODO: Calculate row and col index based on the mouse positon
-		int rowIndex = 0; 
-		int colIndex = 0;
+		// Ensure the indices are within bounds of the grid
+		if (rowIndex >= 0 && rowIndex < ROWS && colIndex >= 0 && colIndex < COLS)
+		{
+			// Calculate the index of the tile clicked on based on the row/col index
+			int tileIndex = rowIndex * COLS + colIndex;
 
-		// TODO: calculate the index of the tile clicked on based on the row/col index
-		int tileIndex = 0;
+			// Modify the tile value
+			m_tiles[tileIndex] += 1;
+			if (m_tiles[tileIndex] >= 5)
 
-		m_tiles[tileIndex] += 1;
-		if (m_tiles[tileIndex] >= 5)
-			m_tiles[tileIndex] = 0;
-	}
+				m_tiles[tileIndex] = 0;
+		}
+		}
 }
 
 void Application::Draw()
@@ -83,14 +95,29 @@ void Application::Draw()
 	// 	   We have created a helper function you can use "GetTileColor"
 	// --------------------------------------------------------------------
 	// write your code here
-	float xPos = 0;
-	float yPos = 0;
-	Color color = GetTileColor(1); // pass in the tilevalue
 
+	for (int i = 0; i < ROWS ; i++)
+	{
+		
+		for (int j = 0; j < COLS; j++) 
+		{
+			
+	float yPos = i * m_tileWidth;
+	float xPos = j * m_tileHeight;
+
+	int index = i * COLS + j;
+	Color color = GetTileColor(m_tiles[index]); // pass in the tilevalue
 	DrawRectangle(xPos, yPos, m_tileWidth, m_tileHeight, color);
+
+
+
+		}
+
+
 
 	// --------------------------------------------------------------------
 
+	}
 	EndDrawing();
 }
 
